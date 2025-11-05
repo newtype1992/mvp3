@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+archiveVersion = 1;
+classes = {};
+objectVersion = 56;
+objects = {
+
+/* Begin PBXBuildFile section */
+AA00100029F9B50000000001 /* SwiftSlotsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000029F9B50000000001 /* SwiftSlotsApp.swift */; };
+AA00100129F9B50000000001 /* DebugPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000129F9B50000000001 /* DebugPanelView.swift */; };
+AA00100229F9B50000000001 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000229F9B50000000001 /* FeedView.swift */; };
+AA00100329F9B50000000001 /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000329F9B50000000001 /* PermissionsView.swift */; };
+AA00100429F9B50000000001 /* BusinessDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000429F9B50000000001 /* BusinessDetailView.swift */; };
+AA00100529F9B50000000001 /* ProfileSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000529F9B50000000001 /* ProfileSettingsView.swift */; };
+AA00100629F9B50000000001 /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000629F9B50000000001 /* ConfirmationView.swift */; };
+AA00100729F9B50000000001 /* SlotDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000729F9B50000000001 /* SlotDetailView.swift */; };
+AA00100829F9B50000000001 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000829F9B50000000001 /* RootView.swift */; };
+AA00100929F9B50000000001 /* MapExplorerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000929F9B50000000001 /* MapExplorerView.swift */; };
+AA00100A29F9B50000000001 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000A29F9B50000000001 /* OnboardingView.swift */; };
+AA00100B29F9B50000000001 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000B29F9B50000000001 /* FavoritesView.swift */; };
+AA00100C29F9B50000000001 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000C29F9B50000000001 /* CheckoutView.swift */; };
+AA00100D29F9B50000000001 /* TimeRemainingChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000D29F9B50000000001 /* TimeRemainingChip.swift */; };
+AA00100E29F9B50000000001 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000E29F9B50000000001 /* PrimaryButton.swift */; };
+AA00100F29F9B50000000001 /* CategoryPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000F29F9B50000000001 /* CategoryPills.swift */; };
+AA00101029F9B50000000001 /* DiscountBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001029F9B50000000001 /* DiscountBadge.swift */; };
+AA00101129F9B50000000001 /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001129F9B50000000001 /* FormField.swift */; };
+AA00101229F9B50000000001 /* RatingStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001229F9B50000000001 /* RatingStars.swift */; };
+AA00101329F9B50000000001 /* SheetHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001329F9B50000000001 /* SheetHeader.swift */; };
+AA00101429F9B50000000001 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001429F9B50000000001 /* EmptyState.swift */; };
+AA00101529F9B50000000001 /* SlotCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001529F9B50000000001 /* SlotCard.swift */; };
+AA00101629F9B50000000001 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001629F9B50000000001 /* Theme.swift */; };
+AA00101729F9B50000000001 /* Price+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001729F9B50000000001 /* Price+Formatting.swift */; };
+AA00101829F9B50000000001 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001829F9B50000000001 /* Color+Hex.swift */; };
+AA00101929F9B50000000001 /* Date+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001929F9B50000000001 /* Date+Formatting.swift */; };
+AA00101A29F9B50000000001 /* AccessibilityHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001A29F9B50000000001 /* AccessibilityHelpers.swift */; };
+AA00101B29F9B50000000001 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001B29F9B50000000001 /* Haptics.swift */; };
+AA00101C29F9B50000000001 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001C29F9B50000000001 /* AppStore.swift */; };
+AA00101D29F9B50000000001 /* DemoDataFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001D29F9B50000000001 /* DemoDataFactory.swift */; };
+AA00101E29F9B50000000001 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001E29F9B50000000001 /* UserPreferences.swift */; };
+AA00101F29F9B50000000001 /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001F29F9B50000000001 /* Slot.swift */; };
+AA00102029F9B50000000001 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00002029F9B50000000001 /* Category.swift */; };
+AA00102129F9B50000000001 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00002129F9B50000000001 /* Business.swift */; };
+AA00102229F9B50000000001 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00002229F9B50000000001 /* NotificationService.swift */; };
+AA00102329F9B50000000001 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00002329F9B50000000001 /* LocationService.swift */; };
+AA00102429F9B50000000001 /* PayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00002429F9B50000000001 /* PayService.swift */; };
+AA00102529F9B50000000001 /* MockSlotService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00002529F9B50000000001 /* MockSlotService.swift */; };
+AACC0DB929F9B2A40000000C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACC0DB229F9B2A400000009 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+AA00000029F9B50000000001 /* SwiftSlotsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSlotsApp.swift; sourceTree = "<group>"; };
+AA00000129F9B50000000001 /* DebugPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugPanelView.swift; sourceTree = "<group>"; };
+AA00000229F9B50000000001 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+AA00000329F9B50000000001 /* PermissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsView.swift; sourceTree = "<group>"; };
+AA00000429F9B50000000001 /* BusinessDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailView.swift; sourceTree = "<group>"; };
+AA00000529F9B50000000001 /* ProfileSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingsView.swift; sourceTree = "<group>"; };
+AA00000629F9B50000000001 /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
+AA00000729F9B50000000001 /* SlotDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotDetailView.swift; sourceTree = "<group>"; };
+AA00000829F9B50000000001 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+AA00000929F9B50000000001 /* MapExplorerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapExplorerView.swift; sourceTree = "<group>"; };
+AA00000A29F9B50000000001 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+AA00000B29F9B50000000001 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+AA00000C29F9B50000000001 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+AA00000D29F9B50000000001 /* TimeRemainingChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRemainingChip.swift; sourceTree = "<group>"; };
+AA00000E29F9B50000000001 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+AA00000F29F9B50000000001 /* CategoryPills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPills.swift; sourceTree = "<group>"; };
+AA00001029F9B50000000001 /* DiscountBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountBadge.swift; sourceTree = "<group>"; };
+AA00001129F9B50000000001 /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
+AA00001229F9B50000000001 /* RatingStars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingStars.swift; sourceTree = "<group>"; };
+AA00001329F9B50000000001 /* SheetHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetHeader.swift; sourceTree = "<group>"; };
+AA00001429F9B50000000001 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+AA00001529F9B50000000001 /* SlotCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotCard.swift; sourceTree = "<group>"; };
+AA00001629F9B50000000001 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+AA00001729F9B50000000001 /* Price+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Price+Formatting.swift"; sourceTree = "<group>"; };
+AA00001829F9B50000000001 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+AA00001929F9B50000000001 /* Date+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Formatting.swift"; sourceTree = "<group>"; };
+AA00001A29F9B50000000001 /* AccessibilityHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityHelpers.swift; sourceTree = "<group>"; };
+AA00001B29F9B50000000001 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+AA00001C29F9B50000000001 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+AA00001D29F9B50000000001 /* DemoDataFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoDataFactory.swift; sourceTree = "<group>"; };
+AA00001E29F9B50000000001 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+AA00001F29F9B50000000001 /* Slot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slot.swift; sourceTree = "<group>"; };
+AA00002029F9B50000000001 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+AA00002129F9B50000000001 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+AA00002229F9B50000000001 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+AA00002329F9B50000000001 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+AA00002429F9B50000000001 /* PayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayService.swift; sourceTree = "<group>"; };
+AA00002529F9B50000000001 /* MockSlotService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSlotService.swift; sourceTree = "<group>"; };
+AA00002629F9B50000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+AA00200029F9B50000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ();
+runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+AACC0D9E29F9B2A400000002 = {
+isa = PBXGroup;
+children = (
+AACC0DA029F9B2A400000003 /* SwiftSlots */,
+);
+sourceTree = "<group>";
+};
+AACC0DA029F9B2A400000003 /* SwiftSlots */ = {
+isa = PBXGroup;
+children = (
+AA00002629F9B50000000001 /* Info.plist */,
+AACC0DA129F9B2A400000004 /* Core */,
+AACC0DA529F9B2A400000005 /* UI */,
+AACC0DAE29F9B2A400000008 /* Utils */,
+AACC0DB229F9B2A400000009 /* Assets.xcassets */,
+AA00000029F9B50000000001 /* SwiftSlotsApp.swift */
+);
+path = SwiftSlots;
+sourceTree = "<group>";
+};
+AACC0DA129F9B2A400000004 /* Core */ = {
+isa = PBXGroup;
+children = (
+AACC0DA229F9B2A400000005 /* Models */,
+AACC0DA629F9B2A400000006 /* Services */,
+AACC0DAA29F9B2A400000007 /* Store */
+);
+path = Core;
+sourceTree = "<group>";
+};
+AACC0DA229F9B2A400000005 /* Models */ = {
+isa = PBXGroup;
+children = (
+AA00002129F9B50000000001 /* Business.swift */,
+AA00002029F9B50000000001 /* Category.swift */,
+AA00001D29F9B50000000001 /* DemoDataFactory.swift */,
+AA00001F29F9B50000000001 /* Slot.swift */,
+AA00001E29F9B50000000001 /* UserPreferences.swift */
+);
+path = Models;
+sourceTree = "<group>";
+};
+AACC0DA629F9B2A400000006 /* Services */ = {
+isa = PBXGroup;
+children = (
+AA00002529F9B50000000001 /* MockSlotService.swift */,
+AA00002429F9B50000000001 /* PayService.swift */,
+AA00002329F9B50000000001 /* LocationService.swift */,
+AA00002229F9B50000000001 /* NotificationService.swift */
+);
+path = Services;
+sourceTree = "<group>";
+};
+AACC0DAA29F9B2A400000007 /* Store */ = {
+isa = PBXGroup;
+children = (
+AA00001C29F9B50000000001 /* AppStore.swift */
+);
+path = Store;
+sourceTree = "<group>";
+};
+AACC0DA529F9B2A400000005 /* UI */ = {
+isa = PBXGroup;
+children = (
+AACC0DA629F9B2A40000000A /* Components */,
+AACC0DAC29F9B2A40000000B /* Screens */,
+AACC0DAD29F9B2A40000000C /* Style */
+);
+path = UI;
+sourceTree = "<group>";
+};
+AACC0DA629F9B2A40000000A /* Components */ = {
+isa = PBXGroup;
+children = (
+AA00000F29F9B50000000001 /* CategoryPills.swift */,
+AA00001029F9B50000000001 /* DiscountBadge.swift */,
+AA00001429F9B50000000001 /* EmptyState.swift */,
+AA00001129F9B50000000001 /* FormField.swift */,
+AA00001229F9B50000000001 /* RatingStars.swift */,
+AA00001329F9B50000000001 /* SheetHeader.swift */,
+AA00001529F9B50000000001 /* SlotCard.swift */,
+AA00000E29F9B50000000001 /* PrimaryButton.swift */,
+AA00000D29F9B50000000001 /* TimeRemainingChip.swift */
+);
+path = Components;
+sourceTree = "<group>";
+};
+AACC0DAC29F9B2A40000000B /* Screens */ = {
+isa = PBXGroup;
+children = (
+AA00000429F9B50000000001 /* BusinessDetailView.swift */,
+AA00000C29F9B50000000001 /* CheckoutView.swift */,
+AA00000629F9B50000000001 /* ConfirmationView.swift */,
+AA00000129F9B50000000001 /* DebugPanelView.swift */,
+AA00000B29F9B50000000001 /* FavoritesView.swift */,
+AA00000229F9B50000000001 /* FeedView.swift */,
+AA00000929F9B50000000001 /* MapExplorerView.swift */,
+AA00000A29F9B50000000001 /* OnboardingView.swift */,
+AA00000329F9B50000000001 /* PermissionsView.swift */,
+AA00000529F9B50000000001 /* ProfileSettingsView.swift */,
+AA00000829F9B50000000001 /* RootView.swift */,
+AA00000729F9B50000000001 /* SlotDetailView.swift */
+);
+path = Screens;
+sourceTree = "<group>";
+};
+AACC0DAD29F9B2A40000000C /* Style */ = {
+isa = PBXGroup;
+children = (
+AA00001629F9B50000000001 /* Theme.swift */
+);
+path = Style;
+sourceTree = "<group>";
+};
+AACC0DAE29F9B2A400000008 /* Utils */ = {
+isa = PBXGroup;
+children = (
+AA00001829F9B50000000001 /* Color+Hex.swift */,
+AA00001A29F9B50000000001 /* AccessibilityHelpers.swift */,
+AA00001929F9B50000000001 /* Date+Formatting.swift */,
+AA00001B29F9B50000000001 /* Haptics.swift */,
+AA00001729F9B50000000001 /* Price+Formatting.swift */
+);
+path = Utils;
+sourceTree = "<group>";
+};
+AACC0DB229F9B2A400000009 /* Assets.xcassets */ = {
+isa = PBXFileReference;
+lastKnownFileType = folder.assetcatalog;
+path = Assets.xcassets;
+sourceTree = "<group>";
+};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+AACC0DB429F9B2A40000000A /* SwiftSlots */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = AACC0DBB29F9B2A40000000D /* Build configuration list for PBXNativeTarget "SwiftSlots" */;
+buildPhases = (
+AACC0DB529F9B2A40000000A /* Sources */,
+AA00200029F9B50000000001 /* Frameworks */,
+AACC0DB629F9B2A40000000A /* Resources */
+);
+buildRules = ();
+dependencies = ();
+name = SwiftSlots;
+productName = SwiftSlots;
+productReference = AACC0DB329F9B2A40000000A /* SwiftSlots.app */;
+productType = "com.apple.product-type.application";
+};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+AACC0D9D29F9B2A400000001 /* Project object */ = {
+isa = PBXProject;
+attributes = {
+LastSwiftUpdateCheck = 1500;
+LastUpgradeCheck = 1500;
+ORGANIZATIONNAME = "Swift Slots";
+};
+buildConfigurationList = AACC0DB829F9B2A40000000C /* Build configuration list for PBXProject "SwiftSlots" */;
+compatibilityVersion = "Xcode 14.0";
+developmentRegion = en;
+hasScannedForEncodings = 0;
+knownRegions = (
+en,
+);
+mainGroup = AACC0D9E29F9B2A400000002;
+productRefGroup = AACC0DB329F9B2A40000000A /* SwiftSlots */;
+projectDirPath = "";
+projectRoot = "";
+targets = (
+AACC0DB429F9B2A40000000A /* SwiftSlots */
+);
+};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+AACC0DB629F9B2A40000000A /* Resources */ = {
+isa = PBXResourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+AACC0DB929F9B2A40000000C /* Assets.xcassets in Resources */
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+AACC0DB529F9B2A40000000A /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+AA00102529F9B50000000001 /* MockSlotService.swift in Sources */,
+AA00102429F9B50000000001 /* PayService.swift in Sources */,
+AA00102329F9B50000000001 /* LocationService.swift in Sources */,
+AA00102229F9B50000000001 /* NotificationService.swift in Sources */,
+AA00102129F9B50000000001 /* Business.swift in Sources */,
+AA00102029F9B50000000001 /* Category.swift in Sources */,
+AA00101F29F9B50000000001 /* Slot.swift in Sources */,
+AA00101E29F9B50000000001 /* UserPreferences.swift in Sources */,
+AA00101D29F9B50000000001 /* DemoDataFactory.swift in Sources */,
+AA00101C29F9B50000000001 /* AppStore.swift in Sources */,
+AA00101B29F9B50000000001 /* Haptics.swift in Sources */,
+AA00101A29F9B50000000001 /* AccessibilityHelpers.swift in Sources */,
+AA00101929F9B50000000001 /* Date+Formatting.swift in Sources */,
+AA00101829F9B50000000001 /* Color+Hex.swift in Sources */,
+AA00101729F9B50000000001 /* Price+Formatting.swift in Sources */,
+AA00101629F9B50000000001 /* Theme.swift in Sources */,
+AA00101529F9B50000000001 /* SlotCard.swift in Sources */,
+AA00101429F9B50000000001 /* EmptyState.swift in Sources */,
+AA00101329F9B50000000001 /* SheetHeader.swift in Sources */,
+AA00101229F9B50000000001 /* RatingStars.swift in Sources */,
+AA00101129F9B50000000001 /* FormField.swift in Sources */,
+AA00101029F9B50000000001 /* DiscountBadge.swift in Sources */,
+AA00100F29F9B50000000001 /* CategoryPills.swift in Sources */,
+AA00100E29F9B50000000001 /* PrimaryButton.swift in Sources */,
+AA00100D29F9B50000000001 /* TimeRemainingChip.swift in Sources */,
+AA00100C29F9B50000000001 /* CheckoutView.swift in Sources */,
+AA00100B29F9B50000000001 /* FavoritesView.swift in Sources */,
+AA00100A29F9B50000000001 /* OnboardingView.swift in Sources */,
+AA00100929F9B50000000001 /* MapExplorerView.swift in Sources */,
+AA00100829F9B50000000001 /* RootView.swift in Sources */,
+AA00100729F9B50000000001 /* SlotDetailView.swift in Sources */,
+AA00100629F9B50000000001 /* ConfirmationView.swift in Sources */,
+AA00100529F9B50000000001 /* ProfileSettingsView.swift in Sources */,
+AA00100429F9B50000000001 /* BusinessDetailView.swift in Sources */,
+AA00100329F9B50000000001 /* PermissionsView.swift in Sources */,
+AA00100229F9B50000000001 /* FeedView.swift in Sources */,
+AA00100129F9B50000000001 /* DebugPanelView.swift in Sources */,
+AA00100029F9B50000000001 /* SwiftSlotsApp.swift in Sources */
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+AACC0DBC29F9B2A40000000D /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_TEAM = "";
+INFOPLIST_FILE = SwiftSlots/Info.plist;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.swiftslots.app;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_EMIT_LOC_STRINGS = YES;
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = 1;
+};
+name = Debug;
+};
+AACC0DBD29F9B2A40000000D /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_TEAM = "";
+INFOPLIST_FILE = SwiftSlots/Info.plist;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.swiftslots.app;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_EMIT_LOC_STRINGS = YES;
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = 1;
+};
+name = Release;
+};
+AACC0DBE29F9B2A40000000D /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+CLANG_WARN_BOOL_CONVERSION = YES;
+CLANG_WARN_COMMA = YES;
+CLANG_WARN_CONSTANT_CONVERSION = YES;
+CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_EMPTY_BODY = YES;
+CLANG_WARN_ENUM_CONVERSION = YES;
+CLANG_WARN_INFINITE_RECURSION = YES;
+CLANG_WARN_INT_CONVERSION = YES;
+CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+CLANG_WARN_STRICT_PROTOTYPES = YES;
+CLANG_WARN_SUSPICIOUS_MOVE = YES;
+CODE_SIGN_STYLE = Automatic;
+COPY_PHASE_STRIP = NO;
+DEBUG_INFORMATION_FORMAT = dwarf;
+GCC_C_LANGUAGE_STANDARD = gnu11;
+GCC_DYNAMIC_NO_PIC = NO;
+GCC_NO_COMMON_BLOCKS = YES;
+GCC_OPTIMIZATION_LEVEL = 0;
+GCC_PREPROCESSOR_DEFINITIONS = (
+"DEBUG=1",
+"$(inherited)",
+);
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNDECLARED_SELECTOR = YES;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_FUNCTION = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+ONLY_ACTIVE_ARCH = YES;
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+};
+name = Debug;
+};
+AACC0DBF29F9B2A40000000D /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+CLANG_WARN_BOOL_CONVERSION = YES;
+CLANG_WARN_COMMA = YES;
+CLANG_WARN_CONSTANT_CONVERSION = YES;
+CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_EMPTY_BODY = YES;
+CLANG_WARN_ENUM_CONVERSION = YES;
+CLANG_WARN_INFINITE_RECURSION = YES;
+CLANG_WARN_INT_CONVERSION = YES;
+CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+CLANG_WARN_STRICT_PROTOTYPES = YES;
+CLANG_WARN_SUSPICIOUS_MOVE = YES;
+CODE_SIGN_STYLE = Automatic;
+COPY_PHASE_STRIP = YES;
+DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+ENABLE_NS_ASSERTIONS = NO;
+GCC_C_LANGUAGE_STANDARD = gnu11;
+GCC_NO_COMMON_BLOCKS = YES;
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNDECLARED_SELECTOR = YES;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_FUNCTION = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+MTL_ENABLE_DEBUG_INFO = NO;
+SWIFT_COMPILATION_MODE = wholemodule;
+SWIFT_OPTIMIZATION_LEVEL = "-O";
+};
+name = Release;
+};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+AACC0DB829F9B2A40000000C /* Build configuration list for PBXProject "SwiftSlots" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+AACC0DBE29F9B2A40000000D /* Debug */,
+AACC0DBF29F9B2A40000000D /* Release */
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+AACC0DBB29F9B2A40000000D /* Build configuration list for PBXNativeTarget "SwiftSlots" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+AACC0DBC29F9B2A40000000D /* Debug */,
+AACC0DBD29F9B2A40000000D /* Release */
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+/* End XCConfigurationList section */
+
+};
+rootObject = AACC0D9D29F9B2A400000001 /* Project object */;
+}
