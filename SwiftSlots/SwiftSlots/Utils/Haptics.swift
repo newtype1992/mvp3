@@ -5,6 +5,11 @@ enum Haptics {
     typealias ImpactStyle = UIImpactFeedbackGenerator.FeedbackStyle
 
     static func impact(_ style: ImpactStyle = .medium) {
+import Foundation
+import UIKit
+
+enum Haptics {
+    static func impact(_ style: UIImpactFeedbackGenerator.FeedbackStyle = .medium) {
         UIImpactFeedbackGenerator(style: style).impactOccurred()
     }
 
